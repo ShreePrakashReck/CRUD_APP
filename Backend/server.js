@@ -49,6 +49,3 @@ if (process.env.NODE_ENV == "production") {
 app.listen(PORT, (req, res) => {
   console.log(`App is listening on ${PORT}`);
 });
-
-//   // "test": "echo \"Error: no test specified\" && exit 1",
-// "start": "node server.js"
