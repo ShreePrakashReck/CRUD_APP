@@ -24,7 +24,7 @@ app.use("/api/v1", (req, res) => {
   res.send("Hello");
 });
 
-//default Route
+//default Route API
 app.get("/default", (req, res) => {
   res.send("You have to created successfully default route");
 });
